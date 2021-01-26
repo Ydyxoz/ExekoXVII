@@ -54,5 +54,7 @@ async def on_ready():
     print("ExekoXVII n'est pas du matin")
 
 
-client.run(TOKEN)
+client.run(process.env.TOKEN)
 print(client.user.name)
+
+"scripts":{"starts":"node index.js"}
